@@ -1,0 +1,56 @@
+@import 'src/styles/colors';
+
+@font-face {
+  font-family: PoppinsRegular;
+  src: url(./assets/fonts/poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: PoppinsSemiBold;
+  src: url(./assets/fonts/poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: PoppinsBold;
+  src: url(./assets/fonts/poppins/Poppins-Bold.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: PoppinsRegular, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $black;
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  padding: 0;
+  transition: .5s;
+}
+
+button:hover {
+  cursor: pointer;
+  filter: brightness(1.2);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+}

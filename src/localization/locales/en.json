@@ -1,0 +1,14 @@
+{
+  "nav" : {
+    "CristianMuñoz": "Cristian Muñoz",
+    "ContactMe": "Contact Me",
+    "Home": "Home",
+    "Skills": "Skills",
+    "Portfolio": "Portfolio",
+    "Blog": "Blog"
+  },
+  "home": {
+    "MyNameCristian": "Hi, I am Cristian",
+    "description": "I am a UI/UX Designer, I like to make interfaces simple and aesthetically pleasing for users; The idea is not to create an interface for creating it, it is that users prefer you because your product is easy to use."
+  }
+}

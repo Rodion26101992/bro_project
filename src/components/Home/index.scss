@@ -1,0 +1,51 @@
+@import "../../styles/colors";
+
+.Home {
+  background: url("../../assets/images/main.png") no-repeat center right 0, url("../../assets/images/leftEllipse.png") no-repeat left 0 top 0, url("../../assets/images/dotsRight.png") no-repeat top 0 right 0, url("../../assets/images/arrow.svg") no-repeat bottom 0 left 35%, url("../../assets/images/dotsLeft.png") no-repeat bottom 90px left 0;
+  margin: 240px -100px 0 -100px;
+  padding: 0 100px;
+  height: 697px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .myNameCristian {
+    font-size: 96px;
+    font-family: PoppinsSemiBold, serif;
+    color: $main;
+    width: 520px;
+    background: url("../../assets/images/nameHighlight.svg") no-repeat top 0 right 110px;
+    line-height: 1em;
+  }
+
+  .description {
+    margin-top: 55px;
+    font-size: 14px;
+    color: $main;
+    width: 380px;
+  }
+
+  .contactMeContainer {
+    margin-top: 50px;
+
+    .contactMe {
+      font-size: 24px;
+      font-family: PoppinsSemiBold, serif;
+      background: linear-gradient(to right, #B224EF, #7579FF);
+      color: $white;
+      width: 294px;
+      height: 68px;
+      border-radius: 16px;
+
+      span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          margin-left: 4px;
+        }
+      }
+    }
+  }
+}
