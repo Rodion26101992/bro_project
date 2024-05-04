@@ -1,7 +1,7 @@
 import './index.scss';
-import { Header } from '../Header';
-import { Home } from '../Home';
-import { Skills } from '../Skills';
+import { Header } from '@components/Header';
+import { Home } from '@components/Home';
+import { Skills } from '@components/Skills';
 
 export const Landing = () => (
   <div className="Landing">
