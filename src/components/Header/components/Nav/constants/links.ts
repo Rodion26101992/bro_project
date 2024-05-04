@@ -1,18 +1,18 @@
 export const links = [
   {
-    key: 'nav.Home',
+    titleKey: 'Nav.Home',
     route: '/home',
   },
   {
-    key: 'nav.Skills',
+    titleKey: 'Nav.Skills',
     route: '/skills',
   },
   {
-    key: 'nav.Portfolio',
+    titleKey: 'Nav.Portfolio',
     route: '/portfolio',
   },
   {
-    key: 'nav.Blog',
+    titleKey: 'Nav.Blog',
     route: '/blog',
   },
 ];

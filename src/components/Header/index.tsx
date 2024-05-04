@@ -10,14 +10,14 @@ export const Header = () => {
         <img src={Modaro} alt="user" className="userAvatar" />
 
         <div className="greetings">
-          <Trans i18nKey="nav.CristianMuñoz" />
+          <Trans i18nKey="Nav.CristianMuñoz" />
         </div>
       </div>
 
       <Nav />
 
       <button className="contactMe">
-        <Trans i18nKey="nav.ContactMe" />
+        <Trans i18nKey="Nav.ContactMe" />
       </button>
     </header>
   );

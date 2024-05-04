@@ -13,12 +13,12 @@ export const Nav = () => {
           const isActive = activeRoute === el.route;
 
           return (
-            <li key={el.key}>
+            <li key={el.titleKey}>
               <a
                 href={el.route}
                 className={isActive ? 'activeText' : ''}
               >
-                <Trans i18nKey={el.key} />
+                <Trans i18nKey={el.titleKey} />
               </a>
 
               {isActive && <span className="activeLink" />}

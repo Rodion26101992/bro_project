@@ -1,0 +1,10 @@
+.Skills {
+  margin: 0 -100px;
+  padding: 0 100px 196px;
+  background: url("../../assets/images/skillsDotsLeft1.png") no-repeat left 0 top 70px, url("../../assets/images/skillsDotsLeft2.png") no-repeat left 0 bottom 34px, url("../../assets/images/skillsLeftEllipse1.png") no-repeat left 0 bottom 0, url("../../assets/images/skillsLeftEllipse1.png") no-repeat left 0 top 200px, url("../../assets/images/skillsRightEllipse.png") no-repeat right 0 top 0, url("../../assets/images/skillsDotsRight.png") no-repeat right 0 top 540px / 90px;
+
+  .line {
+    background: #EDEEFF;
+    height: 1px;
+  }
+}
